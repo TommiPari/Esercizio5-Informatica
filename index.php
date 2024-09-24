@@ -7,7 +7,9 @@
 </head>
 <body>
     <?php
-        
+        $n = rand(1,10);
+        $p = ($n%2==0) ? "Il numero $n è pari" : "Il numero $n è dispari";
+        echo "<p>$p</p>"
     ?>
 </body>
 </html>
